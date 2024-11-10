@@ -4,7 +4,7 @@ import ip from 'ip'
 const app = express()
 app.use(express.json())
 
-let port = 3000
+let port = process.env.PORT|| 3000
 
 app.use("/share", ShareRouter)
 app.get("/", (req, res) => {
