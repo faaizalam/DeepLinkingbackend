@@ -1,4 +1,4 @@
-#Sample Dockerfile for NodeJS Apps
+#Sample Dockerfile for NodeJS Appss
 
 FROM node:20
 
